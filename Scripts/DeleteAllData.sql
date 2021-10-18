@@ -78,3 +78,5 @@ DELETE FROM cortex.versiontranslationactiveingredient;
 DELETE FROM cortex.versiontranslationdrugtype;
 
 DELETE FROM cortex.versiontranslationmanufacturer;
+
+DELETE FROM cortex.tags;
