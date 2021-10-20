@@ -1,6 +1,4 @@
 /*clear all data*/
-SELECT * FROM `members` WHERE `membership_number` IN (1,2,3);
-
 DELETE FROM cortex.abpsettings WHERE `Name` IN
 (
 	'App.ClaimAdmin',
