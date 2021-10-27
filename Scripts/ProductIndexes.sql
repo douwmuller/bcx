@@ -1,6 +1,6 @@
 SELECT * FROM cortex.productindexes;
-SELECT * FROM cortex.productdetails;
-SELECT * FROM cortex.productdetailprices;
+SELECT * FROM cortex.productdetails WHERE ProductIndexId = 56756;
+SELECT * FROM cortex.productdetailprices WHERE ProductDetailId = 489032;
 
 SELECT * FROM cortex.productformularies;
 
